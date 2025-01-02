@@ -15,12 +15,12 @@ There will be 3 main components.
   - Enabled
 
 3. Form for saving a new user with attiributes:
-   - UserName
-   - DisplayName
-   - Phone
-   - Email
-   - User Roles
-   - Enables
+  - UserName
+  - DisplayName
+  - Phone
+  - Email
+  - User Roles
+  - Enables
 
 ## General Layout and Flow
 Generally, white and blue tones will be used.
@@ -31,7 +31,7 @@ Initially all users can be shown in any order.
 Some buttons will change this list or order of the list. These are declared bottom at Details Section.
 
 When user click '+New User' button, which is part of a Component 1 and located at top right,
-There will be shown Component 3, covering rest of the screen like Component 1. It is a form.
+There will be shown Component 3, covering rest of the screen like Component 2. It is a form.
 After user enters his informations, 'Save User' button, which is partf of a Component 1,
 will be looked brighter and user can click on it. User can not click 'Save User' button until
 filling all informations. After User click 'Save User' button, Component 2 will be shown again.
@@ -64,7 +64,7 @@ then it will turn bright blue.
 
 - Next to 'User Name', 'Email', 'Enabled' attributes, there will be a figur and rows.
 When User hit up row in 'UserName' and 'Email', users shown in dictionary order.
-When User hit up row in Enabled, users whose Enabled attribute 'true' is, displayed first
+When User hit up row in Enabled, users whose Enabled attribute 'true' is, displayed first.
 For 3 of them, if down row is hit, rows will be displayed in reverse order.
 
 - For ID attribute, there will be only up row,
@@ -78,7 +78,7 @@ there will Title with text "New User".
 Under of it there will be attributes, which listed above, and components which get informations from users.
 
 Next to 'UserName', 'Display Name', 'Phone', 'Email' there will be textBoxes.
-User enters informations by them.
+User enters informations in them.
 
 For UserRoles there will be a bar. When user click on it, a list shown with values:
 'Guest', 'Admin', 'SuperAdmin'. User choose one of them.
