@@ -71,7 +71,7 @@ For 3 of them, if down row hit, rows will be displayed in reverse order.
 which causes the users displayed in ascending order by ID.
 
 
-###Details of Component 3
+### Details of Component 3
 
 It is a form. There will be gray bar at top and insede 
 there will Title with text "New User". 
